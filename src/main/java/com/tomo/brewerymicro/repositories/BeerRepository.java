@@ -5,6 +5,9 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 
 import java.util.UUID;
 
+/**
+ *  Beer Repository
+ */
 public interface BeerRepository extends PagingAndSortingRepository<Beer, UUID>
 {
 }
